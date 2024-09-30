@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.7;
+background-color: #0e0909;
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(bizbyte-high-resolution-logo.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+height: 5vh;
+
+    padding: 10px 10px;
+}
+
+
+
+.logo {
+    height: 60px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    margin: 40px;
+
+}
+
+
+
+.search {
+margin-right: 100px;
+
+}
+section {
+    padding: 10px;
+    margin: 5px 0px 5px 0px;
+    border: 1px solid #0e0909;
+background-color:aqua;
+transition-property: all;
+transition-timing-function: ease-in-out;
+transition-duration: 3s;
+}
+section:hover{
+
+    color: #f86d6d;
+    font-size: 20px;
+    background-color:blueviolet;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
